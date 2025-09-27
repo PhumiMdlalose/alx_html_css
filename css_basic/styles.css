@@ -1,63 +1,28 @@
-/* Reset some default margins/padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Body as a flex container (column) */
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* makes sure it spans full height */
-  font-family: Arial, sans-serif;
 }
 
-/* Header styling */
-header {
-  background: #f4f4f4;
-  padding: 1rem;
-}
-
-/* Navigation inside header */
-header ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-header a {
-  text-decoration: none;
-  color: #333;
-}
 
 /* Main as a flex container (row) */
 main {
   display: flex;
   flex-direction: row;
-  flex: auto; /* makes it expand to fill available space */
+  flex: auto; 
 }
 
-/* Article takes 2/3 of space */
+
 article {
   flex: 2;
-  padding: 1rem;
-  background: #fff;
   overflow-y: auto;
 }
 
-/* Aside takes 1/3 of space */
+
 aside {
   flex: 1;
-  padding: 1rem;
-  background: #f9f9f9;
-  border-left: 1px solid #ddd;
   overflow-y: auto;
 }
 
-/* Footer styling */
-footer {
-  background: #f4f4f4;
-  text-align: center;
-  padding: 1rem;
-}
+
+
