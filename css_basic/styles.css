@@ -1,8 +1,12 @@
 
 body {
-  display: flex;
-  flex-direction: column;
-  background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#d0e7ff;
+    color: #333;
+    min-height: 100vh;
 }
 
 
@@ -24,6 +28,14 @@ aside {
   flex: 1;
   overflow-y: auto;
 }
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
 @media (max-width: 800px) {
   body.works_on_smartphone {
     display: block;
