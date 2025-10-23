@@ -1,0 +1,283 @@
+#header_main {
+  background-image: url("CSS Advanced/Object.png");
+  background-size: cover;        /* scale to cover the area (keeps aspect ratio) */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;  /* do not tile */
+  /* ensure the area is tall enough to show the image — adjust as needed */
+  min-height: 400px;
+  color: #fff;                   /* optional: text color on top of image */
+}
+
+.nav_in_header {
+  display: flex;                  /* arrange logo + ul in a row */
+  justify-content: space-between; /* push logo left, links right */
+  align-items: center;            /* vertically center them */
+  padding: 20px 80px; 
+  gap: 54px; 
+  list-style-type: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+   color: white;   
+}
+.nav_in_header a {
+  text-decoration: none;  /* remove underline */
+  color: white;           /* adjust color for your background */
+}
+
+.first_h2{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.get_schooled{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.smile_grin_laugh{
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #C271FF; /* Bright orange background */
+  color: white;              /* White text */
+  border: none;              /* No border */
+  padding: 15px 30px;       /* Padding for size */
+  font-size: 16px;          /* Font size */
+  font-family: 'Source Sans Pro', sans-serif; /* Font family */
+  font-weight: bold;        /* Bold text */
+  border-radius: 100px;      /* Slightly rounded corners */
+  cursor: pointer;         /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.learn_from_pros {
+  display: flex;              /* places all child divs in a row */
+  justify-content: center;    /* centers them horizontally */
+  align-items: center;        /* centers them vertically */
+  text-align: center;         /* centers text inside each child div */
+  gap: 40px;                  /* adds space between each profile */
+  margin-top: 30px;
+}
+
+.learn_from_pros div img {
+  width: 150px;               /* optional: control image size */
+  border-radius: 50%;         /* optional: make images circular */
+}
+
+.learn_from_pros h3 {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.learn_from_pros p {
+  font-style: italic;
+  color: gray;
+  font-size: 14px;
+}
+
+.after_main{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 0px;
+  justify-content: center;
+  background-color: #C271FF;
+  height: 390px;
+  width: auto;
+}
+
+.smile_section_container {
+  display: flex;
+  justify-content: center;    /* center all the divs horizontally */
+  align-items: flex-start;
+  flex-wrap: nowrap;          /* keep them in one row */
+  gap: 40px;                  /* space between each div */
+  width: 1200px;
+  margin: 0 auto;             /* center the entire container */
+}
+
+.smile{
+  position: relative;
+}
+
+.play{
+  position: absolute;
+  top: 30px;
+}
+
+.smile_section_container > div {
+  display: flex;
+  flex-direction: column;     /* stack content inside each div vertically */
+  align-items: center;
+  justify-content: center;
+  padding: 10px;              /* <-- add 10px padding inside */
+  background: white;
+  border: none;               /* remove border */
+  border-radius: 0;           /* remove rounded corners */
+  margin: 0;                  /* remove outside margin */
+  box-shadow: none;           /* remove any outer shadow */
+}
+
+.smile_section_container p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.smile_section_container h3{
+  margin: 5px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.smile_section_container div h4{
+  margin: 5px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  align-self: center;
+}
+
+.smile_section_container .P_Massey{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  color: #C271FF;
+}
+
+.smile_section_container .P_Massey img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.stars {
+  display: flex;              /* make stars go in a row */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;                   /* small space between stars */
+  margin: 10;                  /* remove margins */
+  padding: 0;  
+  color: #C271FF;               /* remove padding */
+}
+.happy_smile{
+  order: 4;
+}
+.natural_smile{
+  order: 3;
+}
+/*Free Membership Section*/
+
+.free_membership_sub_container {
+  display: flex;
+  flex-direction: column;      /* stack everything vertically */
+  align-items: center;         /* center all items horizontally */
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Center the heading on its own row */
+.free_membership_sub_container h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Container for the 4 smile sections */
+.free_membership_sub_container{
+  display: flex;
+  gap: 40px;                   /* space between each smile section */
+  justify-content: center;     /* center them horizontally */
+  background-color: #071629;
+  margin-top: 0px;
+  width: 100%;
+}
+.divs{
+  display: flex;
+  gap: 40px;                   /* space between each smile section */
+  justify-content: center;     /* center them horizontally */
+  flex-direction: row;
+  min-width: 250px;
+}
+.divs p,h3{
+  color: white;
+  font-size: 14px;
+}
+.free_membership_sub_container button {
+  margin-top: 40px;
+  background-color: #C271FF; /* Bright orange background */
+  color: white;              /* White text */
+  border: none;              /* No border */
+  padding: 15px 30px;       /* Padding for size */
+  font-size: 16px;          /* Font size */
+  font-family: 'Source Sans Pro', sans-serif; /* Font family */
+  font-weight: bold;        /* Bold text */
+  border-radius: 100px;      /* Slightly rounded corners */
+  cursor: pointer;         /* Pointer cursor on hover */
+  margin-bottom: 20px;
+  justify-content: space-around;
+}
+
+.smile_section{
+  flex-basis: 200px;
+
+}
+.faq_section{
+  display: flex;
+  justify-content: space-around;
+}
+
+.faq_section h3{
+  color: black;
+}
+
+.how_it_works{
+  flex-basis: 350px;
+}
+
+
+
+
+/* footer styling */
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #071629;
+  height: 250px;
+  padding: 0 40px;
+}
+.socials{
+color: white;
+}
+.p_footer{
+  color: white;
+  text-align: center;
+  background-color: #071629;
+  padding-bottom: 20px;
+  margin: 0px;
+}
